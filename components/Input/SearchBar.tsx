@@ -18,7 +18,7 @@ const SearchBar = (props: {
         innerWrapper: "flex",
       }}
       endContent={
-        <Button radius="full" className="px-4 py-1 rounded-full bg-[var(--main-color)]">
+        <Button radius="full" className="px-4 py-1 rounded-full bg-[var(--primary-500)]">
           {buttonText}
         </Button>
       }

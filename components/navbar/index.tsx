@@ -52,10 +52,10 @@ export const Navbar = () => {
           <SearchBar icon={<SearchIcon />} buttonText="Search" />
         </NavbarItem>
         <NavbarItem>
-          <Button className="px-4 py-1 border-2 border-gray-400 rounded-full bg-gray-800 text-[var(--secondary-text)]"> Articles</Button>
+          <Button className="px-4 py-1 border-2 border-[var(--gray-300)] rounded-full font-bold"> Articles</Button>
         </NavbarItem>
         <NavbarItem>
-          <Button className="px-4 py-1 border-2 border-gray-400 rounded-full bg-gray-800 text-[var(--secondary-text)]">
+          <Button className="px-4 py-1 border-2 border-[var(--gray-300)] rounded-full font-bold">
             Learn<DownArrow />
           </Button>
         </NavbarItem>
@@ -92,7 +92,7 @@ export const Navbar = () => {
       </NavbarMenu>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button color="primary" className="px-4 py-1 sm:py-2 rounded-xl bg-[var(--secondary-color)] text-[var(--main-text)]">Connect</Button>
+          <Button color="primary" className="px-4 py-1 sm:py-2 rounded-xl bg-[var(--secondary-300)] text-[var(--primary-700)]">Connect</Button>
         </NavbarItem>
         <NavbarItem className="block sm:hidden">
           <NavbarMenuToggle icon={(isOpen: boolean) => isOpen ? <CrossIcon /> : <MenuIcon />} />

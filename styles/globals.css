@@ -80,3 +80,7 @@
 .text-stroked {
   -webkit-text-stroke: 2px var(--primary-700);
 }
+
+.section-heading {
+  @apply text-center text-4xl font-bold text-[var(--primary-700)]
+}

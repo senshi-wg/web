@@ -1,6 +1,7 @@
 import HeroSection from "@/components/hero-section/hero-section";
 import Features from "@/components/feature";
-import TransactionMatrics from "@/components/chart-section";
+import ChartSection from "@/components/chart-section";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
 	return (
@@ -10,7 +11,9 @@ export default function Home() {
 			{/* User Services Experience */}
 			<Features />
 			{/* Transaction Matrics Section */}
-			<TransactionMatrics/>
+			<ChartSection/>
+			{/* Testimonials Section */}
+			<Testimonials/>
 		</section>
 	);
 }

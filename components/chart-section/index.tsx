@@ -3,8 +3,9 @@ import LineChart from "./LineChart";
 export default function TransactionMatrics() {
     return (
         <section className="mt-32 w-full relative flex flex-col gap-8 md:flex-row items-center">
+            <div className="absolute right-0 -top-40 h-[320px] w-[170px] bg-[var(--primary-600)] blur-[150px] -z-0"></div>
             <div className="w-full md:w-1/2">
-                <LineChart/>
+                <LineChart />
             </div>
             <div className="w-full md:w-1/2">
                 <h1 className="section-heading">Where we are?</h1>
@@ -31,6 +32,7 @@ export default function TransactionMatrics() {
                     <div className="p-2"></div>
                 </div>
             </div>
+            <div className="absolute left-0 -bottom-80 h-[520px] w-[170px] bg-[var(--gray-900)] blur-[120px] -z-0"></div>
         </section>
     )
 }

@@ -5,3 +5,6 @@ export * from './MenuIcon';
 export * from './DownArrow';
 export * from "./CopyIcon";
 export * from "./Email";
+export * from "./Twitter";
+export * from "./Instagram";
+export * from "./Github";

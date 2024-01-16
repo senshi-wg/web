@@ -3,6 +3,7 @@ import Features from "@/components/feature";
 import ChartSection from "@/components/chart-section";
 import Testimonials from "@/components/Testimonials";
 import Subscription from "@/components/Subscription";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -17,6 +18,8 @@ export default function Home() {
 			<Testimonials/>
 			{/* Subscription Section */}
 			<Subscription/>
+			{/* Footer */}
+			<Footer/>
 		</section>
 	);
 }

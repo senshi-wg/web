@@ -3,11 +3,12 @@ import { Button} from "@nextui-org/button";
 import { Input } from "@nextui-org/input";
 
 const SearchBar = (props: {
-  icon: ReactNode,
-  buttonText: string
+  icon: ReactNode;
+  buttonText: string;
+  placeHolder:string;
 }) => {
 
-  const { icon, buttonText } = props;
+  const { icon, buttonText,placeHolder } = props;
 
   return (
     <Input
@@ -18,12 +19,12 @@ const SearchBar = (props: {
         innerWrapper: "flex",
       }}
       endContent={
-        <Button radius="full" className="px-4 py-1 rounded-full bg-[var(--primary-500)]">
+        <Button radius="full" className="w-auto px-8 py-1 rounded-full text-[var(--primary-900)] font-bold bg-[var(--primary-500)]">
           {buttonText}
         </Button>
       }
       labelPlacement="outside"
-      placeholder="Search..."
+      placeholder={placeHolder}
       startContent={icon}
       type="search"
     />

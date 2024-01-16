@@ -2,6 +2,7 @@ import HeroSection from "@/components/hero-section/hero-section";
 import Features from "@/components/feature";
 import ChartSection from "@/components/chart-section";
 import Testimonials from "@/components/Testimonials";
+import Subscription from "@/components/Subscription";
 
 export default function Home() {
 	return (
@@ -14,6 +15,8 @@ export default function Home() {
 			<ChartSection/>
 			{/* Testimonials Section */}
 			<Testimonials/>
+			{/* Subscription Section */}
+			<Subscription/>
 		</section>
 	);
 }

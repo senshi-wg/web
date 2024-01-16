@@ -49,7 +49,7 @@ export const Navbar = () => {
         justify="center"
       >
         <NavbarItem className="hidden lg:flex">
-          <SearchBar icon={<SearchIcon />} buttonText="Search" />
+          <SearchBar icon={<SearchIcon />} buttonText="Search" placeHolder="Search..."/>
         </NavbarItem>
         <NavbarItem>
           <Button className="px-4 py-1 border-2 border-[var(--gray-300)] rounded-full font-bold"> Articles</Button>

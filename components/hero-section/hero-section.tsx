@@ -1,5 +1,6 @@
 import { Code } from "@nextui-org/code";
 import { CopyIcon } from "../assets";
+import { Snippet } from "@nextui-org/snippet";
 
 export default function HeroSection() {
   return (
@@ -13,14 +14,14 @@ export default function HeroSection() {
         <p className="text-[var(--primary-700)]">Streamline your cross-chain transactions between Ethereum and Solana with ease. Experience seamless token swaps and asset management in a user-friendly ecosystem.</p>
       </div>
       <div className="w-full md:w-1/2 flex flex-col md:items-end self-end relative">
-        <div className="p-4 w-[20rem] flex flex-col items-start bg-[var(--primary-900)] rounded-2xl z-10">
+        <div className="p-4 flex flex-col items-start bg-[var(--primary-900)] rounded-2xl z-10">
           <div className="flex items-center justify-center gap-1">
             <span className="block h-[12px] w-[12px] bg-[var(--primary-50)] rounded-full"></span>
             <span className="block h-[12px] w-[12px] bg-[var(--primary-50)] rounded-full"></span>
             <span className="block h-[12px] w-[12px] bg-[var(--primary-50)] rounded-full"></span>
           </div>
           <span className="mt-8 text-[var(--primary-50)]">Install Catalyst</span>
-          <Code className="mt-2 w-full text-[var(--primary-50)] flex items-center justify-between">npx create-catalyst-dapp<CopyIcon /></Code>
+          <Snippet className="mt-2">pnpm i @catalyst/sdk</Snippet>
         </div>
         <div className="absolute right-0 h-[120px] w-[120px] bg-[var(--primary-50)] blur-[110px] -z-0"></div>
       </div>

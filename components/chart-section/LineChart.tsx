@@ -20,6 +20,8 @@ export default function LineChart() {
           tension: 0.5,
           borderColor: "gray",
           pointBackgroundColor: "gray",
+          backgroundColor:"	rgba(32,32,32,0.5)",
+          fill:true
         }],
       }}
         options={{
@@ -30,7 +32,7 @@ export default function LineChart() {
               drawTicks:false
             },
             border:{
-              dash:[6]
+              dash:[3]
             },
             ticks:{
               display:false,
@@ -49,11 +51,16 @@ export default function LineChart() {
               display:false,
               
             }
-          }
+          },
         },
         plugins:{
           legend:{
             display:false,
+          }
+        },
+        elements:{
+          point:{
+            radius:0
           }
         }
         }}

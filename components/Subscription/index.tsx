@@ -19,7 +19,7 @@ export default function Subscription() {
                     <Image src={GirlPic} alt='..' className='w-[34px] absolute left-0 bottom-[15%]' />
                     <Image src={BitcoinCubePic} alt='..' className='w-[52px] absolute right-0 bottom-[5%]' />
                 </div>
-                <div className="w-full md:w-[35%] max-w-[23rem] flex flex-col items-center gap-6">
+                <div className="w-full md:w-[35%] max-w-[24rem] flex flex-col items-center gap-6">
                     <h1 className='text-3xl text-[var(--primary-50)] font-bold'>Subscribe For More Info and update from Catalyst</h1>
                     <SearchBar buttonText='Subscribe Now' icon={<Email />} placeHolder='Enter Email Here..' />
                 </div>

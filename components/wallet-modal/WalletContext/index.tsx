@@ -4,6 +4,7 @@ import { useWallet, WalletProvider as BaseWalletProvider } from '@solana/wallet-
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-wallets';
 import { BackpackWalletAdapter } from '@solana/wallet-adapter-backpack';
+import { MoongateWalletAdapter } from "@moongate/moongate-adapter";
 
 interface IWalletContext {
   connect: (walletName: string) => Promise<void>;
@@ -50,7 +51,7 @@ export const useWalletContext = () => {
 };
 
 export const WithWalletProvider: React.FC<{children: ReactNode, network: WalletAdapterNetwork}> = ({ children, network }) => (
-  <BaseWalletProvider wallets={[new PhantomWalletAdapter(), new BackpackWalletAdapter()]} autoConnect network={network}>
+  <BaseWalletProvider wallets={[new PhantomWalletAdapter(), new BackpackWalletAdapter(), new MoongateWalletAdapter({ position: "top-right" }),]} autoConnect network={network}>
     <WalletProvider>{children}</WalletProvider>
   </BaseWalletProvider>
 );

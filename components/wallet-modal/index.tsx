@@ -34,7 +34,8 @@ export default function WalletModal() {
         },
         {
             text: "Ethereum",
-            image: Ethereum
+            image: Ethereum,
+            walletName: "moongate"
         }
     ];
 

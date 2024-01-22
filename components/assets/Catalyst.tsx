@@ -15,15 +15,15 @@ export const Catalyst = forwardRef<
       <g filter="url(#a)">
         <path
           stroke="#FF7A00"
-          stroke-linecap="round"
-          stroke-width="5"
+          strokeLinecap="round"
+          strokeWidth="5"
           d="M18.52 11.231h5.98"
         />
       </g>
       <g filter="url(#b)">
         <path
           fill="#fff"
-          fill-opacity=".03"
+          fillOpacity=".03"
           d="M7.268 5.77a9.172 9.172 0 0 1 12.463 0c3.921 3.63 3.921 9.83 0 13.46a9.172 9.172 0 0 1-12.463 0c-3.92-3.63-3.92-9.83 0-13.46Z"
         />
       </g>
@@ -33,7 +33,7 @@ export const Catalyst = forwardRef<
           height="2.979"
           y="7.925"
           fill="#fff"
-          fill-opacity=".1"
+          fillOpacity=".1"
           rx="1.49"
         />
       </g>
@@ -44,7 +44,7 @@ export const Catalyst = forwardRef<
           x=".27"
           y="12.509"
           fill="#fff"
-          fill-opacity=".1"
+          fillOpacity=".1"
           rx="1.528"
         />
       </g>

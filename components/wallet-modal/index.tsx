@@ -8,7 +8,7 @@ import MoreWallet from "@/images/morewallet.png";
 import Ethereum from "@/images/ethereum.png";
 
 export default function WalletModal() {
-    const { isOpen, onOpen, onOpenChange } = useDisclosure();
+    const { isOpen, onOpen, onClose, onOpenChange } = useDisclosure();
     const { connect } = useWalletContext();
 
     interface WalletButton {
@@ -43,7 +43,7 @@ export default function WalletModal() {
         if (walletName) {
             await connect(walletName);
         }
-        onOpenChange(false);
+        onClose();
     };
 
     return (

@@ -55,10 +55,10 @@ export const Catalyst = forwardRef<
           height="181"
           x="-71.98"
           y="-79.269"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="44" />
           <feComposite
             in2="SourceAlpha"
@@ -87,10 +87,10 @@ export const Catalyst = forwardRef<
           height="190.344"
           x="-81.672"
           y="-82.672"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="43" />
           <feComposite
             in2="SourceAlpha"
@@ -132,10 +132,10 @@ export const Catalyst = forwardRef<
           height="178.979"
           x="-88"
           y="-80.075"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="44" />
           <feComposite
             in2="SourceAlpha"
@@ -164,10 +164,10 @@ export const Catalyst = forwardRef<
           height="179.056"
           x="-87.73"
           y="-75.491"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="44" />
           <feComposite
             in2="SourceAlpha"

@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="w-1/2 h-[3px] bg-[var(--primary-700)]"></div>
         <p className="text-[var(--primary-700)]">Streamline your cross-chain transactions between Ethereum and Solana with ease. Experience seamless token swaps and asset management in a user-friendly ecosystem.</p>
       </div>
-      <div className="w-full md:w-1/2 flex flex-col md:items-end self-end relative">
+      {/* <div className="w-full md:w-1/2 flex flex-col md:items-end self-end relative">
         <div className="p-4 flex flex-col items-start bg-[var(--primary-900)] rounded-2xl z-10">
           <div className="flex items-center justify-center gap-1">
             <span className="block h-[12px] w-[12px] bg-[var(--primary-50)] rounded-full"></span>
@@ -24,7 +24,7 @@ export default function HeroSection() {
           <Snippet className="mt-2">pnpm i @catalyst/sdk</Snippet>
         </div>
         <div className="absolute right-0 h-[120px] w-[120px] bg-[var(--primary-50)] blur-[110px] -z-0"></div>
-      </div>
+      </div> */}
     </div>
   )
 }

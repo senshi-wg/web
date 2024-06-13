@@ -8,3 +8,5 @@ export * from "./Email";
 export * from "./Twitter";
 export * from "./Instagram";
 export * from "./Github";
+export * from "./WalletIcon"
+export * from "./ExchangeIcon"

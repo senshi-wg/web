@@ -6,6 +6,7 @@ import Ethereum from "@/images/ethereum.png";
 import { WalletIcon } from '@/components/assets';
 import { Button } from '@nextui-org/button';
 import { ExChangeIcon } from '@/components/assets';
+import { ConnectKitButton } from 'connectkit';
 
 export default function page() {
 
@@ -41,7 +42,7 @@ export default function page() {
                 <div className='w-full'>
                     <div className="flex items-center justify-between">
                         <strong className='text-[var(--secondary-900)]'>From</strong>
-                        <Button className='flex items-center gap-2'><WalletIcon />Connect Wallet</Button>
+                        <ConnectKitButton />
                     </div>
                     <div className='mt-4 p-2 w-full h-[11rem] bg-[var(--primary-900)] grid grid-cols-4 grid-rows-2 rounded-md overflow-hidden gap-2'>
                         <div className='bg-[var(--primary-800)] row-span-2 flex flex-col items-center justify-center gap-2 rounded-md'>
@@ -84,8 +85,7 @@ export default function page() {
                 {/* To */}
                 <div className='w-full'>
                     <div className="flex items-center justify-between">
-                        <strong>To</strong>
-                        <Button className='flex items-center gap-2'><WalletIcon />Connect Wallet</Button>
+                    <ConnectKitButton />
                     </div>
                     <div className='mt-4 p-2 w-full h-[11rem] bg-[var(--primary-900)] grid grid-cols-4 grid-rows-2 rounded-md overflow-hidden gap-2'>
                         <div className='bg-[var(--primary-800)] row-span-2 flex flex-col items-center justify-center gap-2 rounded-md'>

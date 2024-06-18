@@ -6,6 +6,7 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { Lexend } from "next/font/google";
 import clsx from "clsx";
+import { Web3Provider } from "./Web3Provider";
 
 export const metadata: Metadata = {
 	title: {
@@ -28,8 +29,8 @@ const lexend = Lexend({
 	weight: '400',
 	subsets: ['latin'],
 	display: 'swap',
-  })
-  
+})
+
 
 export default function RootLayout({
 	children,
@@ -46,12 +47,14 @@ export default function RootLayout({
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-					<div className="relative flex flex-col">
-						<Navbar />
-						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
-							{children}
-						</main>
-					</div>
+					<Web3Provider>
+						<div className="relative flex flex-col">
+							<Navbar />
+							<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+								{children}
+							</main>
+						</div>
+					</Web3Provider>
 				</Providers>
 			</body>
 		</html>

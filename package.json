@@ -17,7 +17,7 @@
     "@nextui-org/input": "2.1.16",
     "@nextui-org/kbd": "2.0.25",
     "@nextui-org/link": "2.0.26",
-    "@nextui-org/modal": "^2.0.28",
+    "@nextui-org/modal": "^2.0.35",
     "@nextui-org/navbar": "^2.0.27",
     "@nextui-org/select": "^2.2.1",
     "@nextui-org/snippet": "2.0.30",
@@ -31,12 +31,14 @@
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-wallets": "^0.19.25",
     "@solana/web3.js": "^1.89.1",
+    "@tanstack/react-query": "^5.45.1",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
     "chart.js": "^4.4.1",
     "clsx": "^2.0.0",
+    "connectkit": "^1.8.1",
     "create-next-app": "",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
@@ -54,6 +56,8 @@
     "swiper": "^11.0.5",
     "tailwind-variants": "^0.1.18",
     "tailwindcss": "3.3.5",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "viem": "2.x",
+    "wagmi": "^2.10.2"
   }
 }

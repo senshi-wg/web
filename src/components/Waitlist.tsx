@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -68,7 +70,7 @@ const Waitlist = () => {
             </motion.button>
           </form>
           {status === 'success' && (
-            <p className="mt-4 text-green-400">You've been added to the waitlist! Check your email for confirmation.</p>
+            <p className="mt-4 text-green-400">You&apos;ve been added to the waitlist! Check your email for confirmation.</p>
           )}
           {status === 'error' && (
             <p className="mt-4 text-red-400">An error occurred. Please try again.</p>
